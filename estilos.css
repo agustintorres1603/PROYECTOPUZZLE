@@ -1,89 +1,94 @@
 @font-face {
-    font-family: 'Rubik';
-    src: url(/Rubik/Rubik-Italic-VariableFont_wght.ttf);
-    font-weight: italic;
-    font-style: italic;
+    font-family: 'Lilita One';
+    src: url(/Lilita_One/LilitaOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    font-family: 'Rubik';
-    font-weight: italic;
+    background: linear-gradient(#6A61CD 100%,#867BFF 62%);
+    font-family: 'Lilita One';
+    font-weight: normal;
     min-height: 100vh;
-    background: linear-gradient(to bottom right,rgb(94, 26, 221),#a8b9eb);
-    width: 1100px;
-    margin: 0px auto;
 }
 
 header {
-    font-weight: 900;
-    height: 100px;
-    width: 100%;
+    font-family: 'Lilita One';
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    width: 723px;
+    margin: 0px auto;
     text-align: center;
-    line-height: 100px;
     color: white;
+    position: relative;
+    top: 50px;
+    border: 1px solid red;
 }
 
 .container {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    height: 100vh;
 }    
     
 
 .btn1 {
-    font-family: 'Rubik';
-    font-weight: italic;
-    font-weight: 900;
-    background-color: white;
-    width: 270px;
-    padding: 15px 32px;
-    color: #2be62b;
-    font-size: 20px;
-    margin: 4px 2px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45,72px;
+    color: #00D254;
+    background-color: #FFFFFF;
+    width: 387px;
+    height: 73px;
+    border-radius: 16px;
+    /*padding: 15px 32px;*/
+    margin: 13px 138px;
     cursor: pointer;
-    border-radius: 20px;
-}
+}    
 
 .btn2 {
-    font-family: 'Rubik';
-    font-weight: italic;
-    font-weight: 900;
-    background-color: white;
-    width: 270px;
-    padding: 15px 32px;
-    color: #7c14dd;
-    font-size: 20px;
-    margin: 4px 2px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45,72px;
+    color: #76699C;
+    background-color: #FFFFFF;
+    width: 387px;
+    height: 73px;
+    border-radius: 16px;
+    /*padding: 15px 32px;*/
+    margin: 13px 138px;
     cursor: pointer;
-    border-radius: 20px;
 }
 
 .btn3 {
-    font-family: 'Rubik';
-    font-weight: italic;
-    font-weight: 900;
-    background-color: white;
-    width: 270px;
-    padding: 15px 32px;
-    color: #7c14dd;
-    font-size: 20px;
-    margin: 4px 2px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45,72px;
+    color: #76699C;
+    background-color: #FFFFFF;
+    width: 387px;
+    height: 73px;
+    border-radius: 16px;
+    /*padding: 15px 32px;*/
+    margin: 13px 138px;
     cursor: pointer;
-    border-radius: 20px;
 }
 
 .btn4 {
-    font-family: 'Rubik';
-    font-weight: italic;
-    font-weight: 900;
-    background-color: white;
-    width: 270px;
-    padding: 15px 25px;
-    color: #7c14dd;
-    font-size: 20px;
-    margin: 4px 2px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45,72px;
+    color: #76699C;
+    background-color: #FFFFFF;
+    width: 387px;
+    height: 73px;
+    border-radius: 16px;
+    /*padding: 15px 32px;*/
+    margin: 13px 138px;
     cursor: pointer;
-    border-radius: 20px;
 }
