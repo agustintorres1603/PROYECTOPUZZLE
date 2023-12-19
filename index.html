@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO PUZZLE AGUSTIN</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-
-    <header>
-
-        <h1> AGUSTIN PUZZLE GAME </h1>
-    
-    </header>
+    <h1 class="title"> AGUSTIN PUZZLE GAME </h1>
 
     <div class="container">
-
-        <button class="btn1"> START </button>
-        <button class="btn2"> LEADER BOARD </button>
-        <button class="btn3"> RULES </button>
-        <button class="btn4"> SETTINGS </button>
-
+        <button class="button-common button-primary"> START </button>
+        <button class="button-common"> LEADER BOARD </button>
+        <button class="button-common"> RULES </button>
+        <button class="button-common"> SETTINGS </button>
+    </div>
+    
+        
+    <div class="modal-container modal-display-none" id="modal_container">
+            <h1 class="title_2"> TITLE </h1>
+            <button id="Close">CLOSE MODAL</button>
     </div>
 
+
+    <script src="./js/index.js"></script>  
 </body>
 </html>
 

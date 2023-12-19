@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Lilita One';
+    src: url(../fonts/Lilita_One/LilitaOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Lilita One';
+    font-weight: normal;
+    font-weight: 400;
+}
+
+body {
+    position: absolute; /*Lo quite porque el fondo se pone blanco. No conozco si puede afectar otra cosa.*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #746CD5;
+    /*background-color: linear-gradient(to bottom right, #6A61CD,#867BFF);*/ /*position absolute no funciona*/
+    font-weight: normal;
+}
+
+.title {
+    height: 80px;
+    line-height: 80px;
+    width: 723px;
+    text-align: center;
+    color: white;
+    top: 50px;
+    margin: 216px auto 148px;
+    font-size: 70px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-common {
+    box-shadow: 0 5px #76699C;
+    width: 387px;
+    height: 73px;
+    background-color: #FFFFFF;
+    color: #746CD5;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    border-radius: 16px;
+    border: none;
+    margin: 13px 138px;
+}
+
+.button-primary {
+    margin-bottom: 40px;
+    color: #00D254;
+    cursor: pointer;
+}
+
+@media all and (max-width: 375px) {
+    .title {
+        font-size: 46px;
+    }
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para centrar verticalmente */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 182px;
+    left: 202px;
+    right: 202px;
+    bottom: 181px;
+    height: 661px;
+    width: 1036px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 10px #76699C;    
+}    
+
+.modal-display-none {
+    display: none;
+}
+
+.title_2 {
+    position: absolute;
+    font-size: 54px;
+    top: 60px;
+    left: 454px;
+    color: #746CD5;
+    line-height: 62px;
+}
+
+#Close {
+    position: absolute;
+    width: 298px;
+    height: 60px;
+    background-color: #746CD5;
+    top: 569px;
+    left: 369px;
+    border-radius: 16px;
+    box-shadow: 0 5px #D0BFFF;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 27px;
+}
